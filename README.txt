@@ -1,6 +1,4 @@
 MINETEST PORTAL MOD
-
-DESCRIPTION
 Adds portal inspired blocks
 
 FORUM
