@@ -2,10 +2,9 @@ local mod_name="portal"
 local node_group
 --if creative mode make diggable
 if minetest.setting_getbool("creative_mode") then
-    print("HABALAMASNDWDWHD")
     node_group = {dig_immediate=3}
 else
-    node_group = {immortal}
+    node_group = {cracky=3}
 end
 --regster nodes
 local solid = {
